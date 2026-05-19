@@ -107,7 +107,7 @@
       gap: 20px;
     }
 
-    .figure-grid .card:last-child {
+    .figure-grid.wide-last .card:last-child {
       grid-column: 1 / -1;
     }
 
@@ -145,7 +145,7 @@
         grid-template-columns: 1fr;
       }
 
-      .figure-grid .card:last-child {
+      .figure-grid.wide-last .card:last-child {
         grid-column: auto;
       }
     }
@@ -192,7 +192,7 @@
 
     <section>
       <h2>Key Plots</h2>
-      <div class="figure-grid">
+      <div class="figure-grid wide-last">
         <article class="card">
           <img src="assets/145_SAM_GTG_S36_H439_rep3_poster.png" alt="S36p-H439 distance plot">
           <div class="card-body">
@@ -246,6 +246,53 @@
     </section>
 
     <section>
+      <h2>aMD Distance Plots</h2>
+      <div class="figure-grid">
+        <article class="card">
+          <img src="assets/145_SAM_GTG_2_H439_aMD.png" alt="aMD AF3-extended S36-H439 distance plot">
+          <div class="card-body">
+            <h3>aMD S36-H439 distance (AF3-extended RNMT)</h3>
+            <p>
+              Accelerated MD distance between RAM Ser36 variants and RNMT H439 for the AF3-extended RNMT-RAM model.
+            </p>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="assets/145_SAM_GTG_2_K442_aMD.png" alt="aMD AF3-extended S36-K442 distance plot">
+          <div class="card-body">
+            <h3>aMD S36-K442 distance (AF3-extended RNMT)</h3>
+            <p>
+              Accelerated MD distance between RAM Ser36 variants and RNMT K442 for the AF3-extended RNMT-RAM model.
+            </p>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="assets/5E8J_SAM_GTG_2_H439_aMD.png" alt="aMD 5E8J S36-H439 distance plot">
+          <div class="card-body">
+            <h3>aMD S36-H439 distance (5E8J model)</h3>
+            <p>
+              Accelerated MD distance between RAM Ser36 variants and RNMT H439 for the 5E8J crystal-structure-based model.
+              This plot includes the available aMD conditions in the current dataset.
+            </p>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="assets/5E8J_SAM_GTG_2_K442_aMD.png" alt="aMD 5E8J S36-K442 distance plot">
+          <div class="card-body">
+            <h3>aMD S36-K442 distance (5E8J model)</h3>
+            <p>
+              Accelerated MD distance between RAM Ser36 variants and RNMT K442 for the 5E8J crystal-structure-based model.
+              This plot includes the available aMD conditions in the current dataset.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section>
       <h2>Downloads</h2>
       <p>Use these links if the browser does not play a movie directly.</p>
       <div class="downloads">
@@ -255,6 +302,10 @@
         <a href="assets/145_SAM_GTG_S36_K442_rep3_poster.png" download>AF3-extended K442 plot</a>
         <a href="assets/5E8J_SAM_GTG_S36_H439_rep3_poster.png" download>5E8J H439 plot</a>
         <a href="assets/5E8J_SAM_GTG_S36_K442_rep3_poster.png" download>5E8J K442 plot</a>
+        <a href="assets/145_SAM_GTG_2_H439_aMD.png" download>aMD AF3-extended H439 plot</a>
+        <a href="assets/145_SAM_GTG_2_K442_aMD.png" download>aMD AF3-extended K442 plot</a>
+        <a href="assets/5E8J_SAM_GTG_2_H439_aMD.png" download>aMD 5E8J H439 plot</a>
+        <a href="assets/5E8J_SAM_GTG_2_K442_aMD.png" download>aMD 5E8J K442 plot</a>
         <a href="assets/PBSA_per_residue_PB_S36p_TOTAL_all_145_poster.png" download>PBSA plot</a>
       </div>
     </section>
